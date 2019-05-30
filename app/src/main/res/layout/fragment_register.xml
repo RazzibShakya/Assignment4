@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA2E2A2A"
+    tools:context=".Activity.Register">
+
+  <android.support.v7.widget.CardView
+      android:layout_width="wrap_content"
+      android:layout_height="300dp"
+      android:layout_gravity="center"
+      >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:background="#AAACA6A6">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Register Here"
+              android:layout_gravity="center"
+              android:textSize="30dp"/>
+      <EditText
+          android:layout_width="300dp"
+          android:layout_height="wrap_content"
+          android:layout_centerInParent="true"
+          android:hint="First Name"
+          android:id="@+id/firstname"
+
+          />
+
+      <EditText
+          android:layout_width="300dp"
+          android:layout_height="wrap_content"
+          android:hint="Last Name"
+          android:id="@+id/lastname"
+          />
+      <EditText
+          android:layout_width="300dp"
+          android:layout_height="wrap_content"
+          android:hint="Username"
+          android:id="@+id/txtusername"
+          />
+      <EditText
+          android:layout_width="300dp"
+          android:layout_height="wrap_content"
+          android:hint="Password"
+          android:id="@+id/pwpassword"
+          />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="Register"
+          android:id="@+id/btnregister"/>
+
+
+      </LinearLayout>
+  </android.support.v7.widget.CardView>
+
+
+</FrameLayout>
